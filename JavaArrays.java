@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 public class JavaArrays {
-    // Array of Objects Syntax: Class obj[] = new Class [array_length];
-
+    
+    ArrayList<Object> a = new ArrayList<Object>();
+   
 }
