@@ -3,4 +3,7 @@ public class ClassAndObjects {
     //method
 
     //Object Syntax: ClassName ReferenceVariable = new ClassName();
+
 }
+
+
