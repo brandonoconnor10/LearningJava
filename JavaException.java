@@ -1,14 +1,20 @@
-class JavaException {
-    public static void main(String args[]){
-      int d = 0;
-      int n = 20;
-      try{
-         int fraction = n/d;
-         System.out.println("End Of Main");
-      }
-      catch(Exception e){
-         System.out.println("In the catch Block due to Exception = " + e);
-      }
-      System.out.println("End of Main");
-    }
+class JavaException{
+   public static void main(String args[]){
+  try{
+       throw new MyException(2);
+       // throw is used to create a new exception and throw it.
+  }
+ catch(MyException e){
+    System.out.println(e) ;
  }
+}
+}
+class MyException extends Exception{
+   int a;
+   MyException(int b) {
+     a=b;
+   }
+   public String toString(){
+     return ("Exception Number =  "+a) ;
+  }
+}
