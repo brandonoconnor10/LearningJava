@@ -6,7 +6,7 @@ class JavaException {
          int fraction = n/d;
          System.out.println("End Of Main");
       }
-      catch(ArithmeticException e){
+      catch(Exception e){
          System.out.println("In the catch Block due to Exception = " + e);
       }
       System.out.println("End of Main");
